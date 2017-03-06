@@ -5,14 +5,17 @@ public class Main {
 
     public static void main(String [] args){
 
-        Main szyfr = new Main();
+      //  Main szyfr = new Main();
+
+        Drugi szyfr = new Drugi();
+
 
         String ciphered = szyfr.PrzestawieniowyJedenSzyfruj("CONVENIENCE","HERE IS A SECRET MESSAGE ENCIPHERED BY TRANSPOSITION");
 
         System.out.println(ciphered);
 
 
-        szyfr.PrzestawieniwyJedenDeszyfruj("CONVENIENCE","HECRNCEYIISEPSGDIRNTOAAESRMPNSSROEEBTETIAEEHS");
+        szyfr.PrzestawieniwyJedenDeszyfruj("CONVENIENCE","HEESPNIRRSSEESEIYASCBTEMGEPNANDICTRTAHSOIEERO");
 
 
 
